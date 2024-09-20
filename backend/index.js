@@ -12,7 +12,7 @@ myapp.use(cors());
 
 // DataBase Connection with MongoDB
 
-mongoose.connect("mongodb+srv://PawanKumar:QuickMart22@cluster0.jwevy.mongodb.net/e-commerce")
+mongoose.connect("mongodb+srv://<db_username>:<db_password>@cluster0.jwevy.mongodb.net/e-commerce")
     .then(() => {
         console.log("DB Connection Succesfull")
     })
